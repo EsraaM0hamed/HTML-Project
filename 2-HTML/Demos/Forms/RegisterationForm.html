@@ -1,0 +1,162 @@
+<html>
+	<head>
+		<title>Registeration Form</title>
+	</head>
+	<body>
+		<form method="get" action="server.html">
+			<table width="300" align="center" cellspacing="10" cellpadding="10" bgcolor="lightyellow">
+				<caption>
+					<h3>OpenSource Form</h3>
+				</caption>
+				
+				<tbody>
+					<tr>
+						<td>UserName</td>
+						<td><input type="text" name="username" size="75"/></td>
+					</tr>
+					<tr>
+						<td>UserPass</td>
+						<td><input type="password" name="userpass" size="75"/></td>
+					</tr>
+					<tr>
+						<td rowspan="2">Gender</td>
+						<td><input type="radio" name="Gender" value="M" checked/>Male</td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="Gender" value="F"/>Female</td>
+					</tr>
+					<tr>
+						<th colspan="2">Interests</th>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<table bgcolor="lightpink" width="100%" >
+								<tr>
+									<td><input type="checkbox" name="interests" value="Reading" checked /></td>
+									<td>Reading</td>
+									<td><input type="checkbox" name="interests" value="Swimming" /></td>
+									<td>Swimming</td>
+									<td><input type="checkbox" name="interests" value="Running" checked/></td>
+									<td>Running</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox" name="interests" value="Coding"  /></td>
+									<td>Coding</td>
+									<td><input type="checkbox" name="interests" value="Developing" checked /></td>
+									<td>Developing</td>
+									<td><input type="checkbox" name="interests" value="Designing" /></td>
+									<td>Designing</td>
+								</tr>
+
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td> University</td>
+						<td>
+							<select name="university">
+								<option/>Choose your university
+								<optgroup label="Delta">
+									<option value="mans" selected/>Mansoura	
+									<option value="tanta"/>Tanta
+									<option value="zag"/>Zagazig
+									<option value="KFS"/>KafrElsheikh
+								</optgroup>
+								<optgroup label="Capitals">
+									<option value="Azhar"/>AlAZhar
+									<option value="cairo"/>Cairo
+									<option value="alex"/>Alex
+								</optgroup>
+							</select>
+						</td>
+					</tr>
+					<tr>
+		
+						<td>Courses</td>
+						<td>
+							<select multiple name="crs">
+								<option value="HTML" selected/>HTML
+								<option value="JS"/>javaScript
+								<option value="CSS" selected/>Cascade Style Style
+								<option value="XML" selected/>Extensible Markup Language
+								<option value="SQL"/>Structure Query language
+								<option value="ASP"/>Active Server pages
+							</select>
+						</td>
+
+					</tr>
+
+					<tr>
+						<td>User Image</td>
+						<td><input type="file" name="userimage"/>	</td>
+					</tr>
+					<tr>
+						<th colspan="2">Comments</th>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							<textarea rows="10" cols="70"></textarea>
+						</td>
+					</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<tr>
+						<td colspan="2">
+							<table width="100%" >
+							<tr>
+						<td align="right"><input type="submit" value="Register"/></td>						
+						<td><input type="reset" value="Clear"/></td>						
+							</tr>
+							</table> 
+						</td> 
+					</tr>
+				
+
+					
+
+
+
+
+
+
+
+
+
+				</tbody>
+			</table>
+		</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+</html>

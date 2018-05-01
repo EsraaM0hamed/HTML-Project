@@ -1,0 +1,42 @@
+h1 {
+color: #36CFFF;
+}
+body{
+    background-image: url(bg2.png)
+}
+
+
+
+
+        table.one {
+            
+            font-size: 20px;
+            padding: 150px;
+            margin-right: 100px;
+            padding-right: 500px;
+            height: 200px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-right: 100px;
+            margin-left: 100px;
+            border:20px solid ;
+            border-color: darkgray;
+            background-color: white;
+            border-style:groove;
+       
+        }
+tr{
+            font-size: 20px;
+            padding: 100px;
+            margin: 50px;
+            height: 200px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+            margin-right: 50px;
+            margin-left:50px;
+            text-align: left;
+            border:10px solid gray;
+            background-color: burlywood;
+        }
+
+       

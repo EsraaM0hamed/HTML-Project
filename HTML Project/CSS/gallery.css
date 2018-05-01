@@ -1,0 +1,48 @@
+header{
+    
+    height:120px; 
+    width:80%;
+    margin: auto 0;
+    margin-left: 10%;
+    display: block;
+    text-align: center;      
+}
+
+
+maindiv{
+     margin-left: 10%;
+     margin-right: 10%;
+     width: 70%;
+    display: block;
+    margin: auto;
+    
+    
+}
+
+seconddiv{
+  text-align: center;
+     padding:10px; 
+      margin: auto 186;
+    display: block;
+    
+    
+}
+smallpic{
+    padding: 5px;
+    width: 280px ;
+    height:300px;
+    display: block;
+    
+}
+pigpic{
+    padding: 5px;
+    width:570px ;
+    height:605px;
+    display: block;
+    
+}
+h3{
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+}

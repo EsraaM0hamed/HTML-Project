@@ -1,0 +1,60 @@
+header{
+    
+    height:120px; 
+    width:80%;
+    margin-left: 10%;
+    text-align: center;      
+}
+
+headtxt{
+text-align: center;
+    font-size:27px;
+    
+    
+}
+maindiv{
+     border: 2px solid;
+     margin-left: 10%;
+     margin-right: 10%;
+     width: 70%;
+    
+    
+}
+seconddiv{
+  text-align: center;
+     padding:10px; 
+      margin: auto 186;
+    display: block;
+    
+    
+}
+
+leftdiv{
+    display: block;
+    margin-right: 20%;
+    float: left;
+    width: 550px;
+    margin-left:200px;
+    margin-right: 0px;
+    height: 800px;
+    
+}
+condiv{
+    float: left;
+    margin-right:10%;
+    padding-top: 40px;
+    text-align: center;
+    width:500px;
+    height: 220px;
+    
+     
+}
+
+rightdiv{
+    float: right;
+    margin-right:10.7%;
+    width:800px;
+    height: 800px;
+    display: block;
+    
+}
